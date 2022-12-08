@@ -12,6 +12,21 @@ const - nekeiciama reiksme (default)
 let - kintama reiksme (sekantis tinkamas pasirinkimas, jei netinka const)
 var - niekada ne naudoti. (seniena)
 
+
+Sutrumpinimai:
+x = x + 2 -> x += 2
+x = x - 2 -> x -= 2
+x = x * 2 -> x *= 2
+x = x / 2 -> x /= 2
+x = x % 2 -> x %= 2
+
+Jei padidinti reikia tik 1 vienetu, tai:
+x = x + 1 -> x += 1 -> x++ priklauso nuo to, ka spausdins pirma.
+x = x + 1 -> x += 1 -> ++x
+
+Jei sumazinti reikia tik 1 vienetu, tai
+x = x - 1 -> x -= 1 -> x--
+x = x - 1 -> x -= 1 -> --x
 */
 
 const PI = 3.14;
@@ -101,3 +116,44 @@ console.log("Pazymiu suma", pazymiuSuma);
 
 pazymiuSuma = pazymiuSuma + p4;
 console.log("Pazymiu suma", pazymiuSuma);
+
+console.log("---------------------------------");
+
+const islaida1 = 10;
+const islaida2 = 20;
+const islaida3 = 25;
+const islaida4 = 35;
+
+let saskaita = 100;
+
+saskaita -= islaida1;
+console.log("isleidau", islaida1, "saskaitoje liko:", saskaita);
+
+saskaita -= islaida2;
+console.log("isleidau", islaida2, "saskaitoje liko:", saskaita);
+
+saskaita -= islaida3;
+console.log("isleidau", islaida3, "saskaitoje liko:", saskaita);
+
+saskaita -= islaida4;
+console.log("isleidau", islaida4, "saskaitoje liko:", saskaita);
+
+console.log("---------------------------------");
+
+let index = 0;
+
+console.log("index", index++);
+console.log("index", index++);
+console.log("index", index++);
+console.log("index", index++);
+console.log("index", index++);
+console.log("index", index++);
+
+let index2 = 0;
+
+console.log("index", --index2);
+console.log("index", --index2);
+console.log("index", --index2);
+console.log("index", --index2);
+console.log("index", --index2);
+console.log("index", --index2);
