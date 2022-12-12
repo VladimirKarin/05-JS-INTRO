@@ -1,5 +1,6 @@
 /*
 ARRAY (List, sarasas, matrix, matrica, masyvas)
+"supaprastintas objektas"
 
 []- lauztines skliaustai
 */
