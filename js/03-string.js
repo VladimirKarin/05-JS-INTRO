@@ -1,18 +1,18 @@
 /*
-STRINGS (tekstas)
-inicijavimas kabutemis:
-      -viengubos(')
-      -dvigubos(")
-      -backtick/apostrofas (`)
+    STRINGS (tekstas)
+    iniciavimas kabutemis:
+        - viengubos (') (default)
+        - dvygubos (")
+        - backtick/apostrofas (`)
 */
 
-const hi = "Hello";
+const hi = "labas";
 console.log(hi);
 
-const morning = "world!";
+const morning = "rytas";
 console.log(morning);
 
-const sentence = "Hello World!";
+const sentence = "labas rytas";
 console.log(sentence);
 
 const combo1 = hi + " " + morning;
@@ -20,47 +20,50 @@ const combo2 = hi + " " + morning;
 console.log(combo1);
 console.log(combo2);
 
-const user = "John";
-
-// hi, John!
-const userHi = "Hi, " + user + "!";
-console.log(userHi);
-
 // Vienguba kabute (').
-// Dviguba kabute (").
-// Vienguba kabute (') ir dvigube kabute (").
-
-const kabute1 = "Vienguba kabute (').";
-console.log(kabute1);
-const kabute2 = 'Dviguba kabute (").';
+// Dvyguba kabute (").
+// Vienguba kabute (') ir dvyguba kabute (").
+const kabute2 = "Vienguba kabute (').";
 console.log(kabute2);
 
-// escape (\)
-const kabute112 = "Vienguba kabute (') ir dvigube kabute (\").";
+const kabute1 = 'Dvyguba kabute (").';
+console.log(kabute1);
+
+// escape
+const kabute112 = "Vienguba kabute (') ir dvyguba kabute (\").";
 console.log(kabute112);
 
-const kabute212 = "Vienguba kabute (') ir dvigube kabute (\").";
+const kabute212 = "Vienguba kabute (') ir dvyguba kabute (\").";
 console.log(kabute212);
 
-const kabute3 = "Vienguba kabute (') ir dvigube kabute (\").";
+const kabute3 = "Vienguba kabute (') ir dvyguba kabute (\").";
 console.log(kabute3);
 
-console.log("---------------------");
+console.log("-------------");
 
-const user2 = "John";
+const viengubaKabute = "'";
+const dvygubaKabute = '"';
 
-const user2Hi = "Hi ," + user2 + "!";
-console.log(user2Hi);
-
-//Vienguba kabute (') ir dviguba kabute (")
+// Vienguba kabute (') ir dvyguba kabute (").
 const kabuciuSakinys =
   "Vienguba kabute (" +
   viengubaKabute +
-  ") ir dvygubakabute (" +
+  ") ir dvyguba kabute (" +
   dvygubaKabute +
   ").";
+console.log(kabuciuSakinys);
 
-const kabutesBacktick = `Vienguba kabute (${viengubaKabute}) ir dvigube kabute (${dvygubaKabute}).)`;
-console.log(kabutesBacktick);
+const kabutesBacktick = `Vienguba kabute (') ir dvyguba kabute (").`;
+const kabutesBacktick2 = `Vienguba kabute ('), dvyguba kabute (") ir backtick kabute (\`).`;
 
-// ${} - veikia tik su `
+const backtickSakinys = `Vienguba kabute (${viengubaKabute}) ir dvyguba kabute (${dvygubaKabute}).`;
+console.log(backtickSakinys);
+
+const user = "John";
+
+// Hi, John!
+const userHi = "Hi, " + user + "!";
+console.log(userHi);
+
+const userBacktick = `Hi, ${user}!`;
+console.log(userBacktick);
