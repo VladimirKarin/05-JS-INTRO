@@ -61,6 +61,9 @@ marksSum += marks2[4];
 
 console.log("Marks sum: ", marksSum);
 
+const x = 30 + undefined;
+console.log(x);
+
 // console.log(marks2[5]); --undefined
 
 const abc = ["a", "b", "c", "d", "e", "f"];
