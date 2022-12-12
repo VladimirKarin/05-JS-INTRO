@@ -95,6 +95,14 @@ const laipsnisBA = b ** a; // 7 v 5 = 7 * 7 * 7 * 7 * 7 stepeni
 console.log(a, b, laipsnisAB);
 console.log(b, a, laipsnisBA);
 
+//Saknis
+
+const saknis81 = 81 ** 0.5;
+console.log(saknis81);
+
+const kubineSaknis27 = 27 ** (1 / 3);
+console.log(kubineSaknis27);
+
 console.log("---------------------------------");
 
 const p1 = 10;
