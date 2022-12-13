@@ -1,7 +1,7 @@
 /*
 OBJECT (objektas
   "tikras objektas"
-  */
+*/
 // [vardas, amzius, vedes\susituoke]
 const user1 = ["Petras", 99, true];
 const user2 = ["Maryte", 87, false];

@@ -29,3 +29,11 @@ console.log(marks, marksType);
 console.log(typeof []);
 console.log(typeof [1]);
 console.log(typeof [1, -8]);
+
+console.log("____________________");
+
+const x = "" + 5;
+console.log(x);
+
+const y = typeof ("" + 5);
+console.log(y);
