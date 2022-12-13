@@ -45,11 +45,54 @@ const secondStrArr = [
   "Bon giorno",
 ];
 console.log(secondStrArr);
+
 const thirdstrArr = [
   "Poem about arrays",
   "Roses are red",
-  "violits are blue",
+  "violets are blue",
   "I'm learning some arrays",
   "so can you",
 ];
 console.log(thirdstrArr);
+
+// VEIKSMAI SU KINTAMAISIAIS
+
+// 1
+
+const sumNum = firstNum + secondNum + thirdNum;
+console.log(sumNum);
+
+// 2
+
+const sumString = firstString + " " + secondString + " " + thirdString;
+console.log(sumString);
+
+// 3
+
+const firstArrayType = typeof firstArray;
+console.log(firstArrayType);
+
+let value = 0;
+
+value += firstArray[0];
+value -= firstArray[1];
+value += firstArray[2];
+value -= firstArray[3];
+value += firstArray[4];
+
+console.log("Value of firstArray's all numbers sum: " + value);
+
+// 4
+const thirdArrayType = typeof thirdstrArr;
+console.log(thirdArrayType);
+
+let secondValue = "From end to start with comas and spaces: ";
+const separator = ", ";
+const ending = ".";
+
+secondValue += thirdstrArr[4] + separator;
+secondValue += thirdstrArr[3] + separator;
+secondValue += thirdstrArr[2] + separator;
+secondValue += thirdstrArr[1] + separator;
+secondValue += thirdstrArr[0] + separator;
+console.log(secondValue);
