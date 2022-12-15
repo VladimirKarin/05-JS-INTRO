@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "rangeSum": "nodemon ./tasks/rangeSum.js",
-    "zerofuel": "nodemon ./CodeWars/zerofuel.js",
-    "shop": "nodemon ./tasks/shop.js",
     "for": "nodemon ./js/010-for.js",
     "task": "nodemon ./js/00-task.js",
     "if": "nodemon ./js/09-if.js",
@@ -18,7 +15,11 @@
     "strings": "nodemon ./js/03-string.js",
     "numbers": "nodemon ./js/02-numbers.js",
     "hello": "nodemon ./js/01-hello.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "shop": "nodemon ./tasks/shop.js",
+    "rangeSum": "nodemon ./tasks/rangeSum.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zerofuel": "nodemon ./CodeWars/zerofuel.js",
+    "arrayCheck": "nodemon ./CodeWars/arrayCheck"
   },
   "keywords": [],
   "author": "",
