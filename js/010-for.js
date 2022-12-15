@@ -104,3 +104,40 @@ console.log(`${student1.name} pazymiu vidurkis yra ${vidurkis1}.`);
 console.log(`${student2.name} pazymiu vidurkis yra ${vidurkis2}.`);
 console.log(`${student3.name} pazymiu vidurkis yra ${vidurkis3}.`);
 console.log(`${student4.name} pazymiu vidurkis yra ${vidurkis4}.`);
+
+console.clear();
+
+const valiuta = "EUR";
+const items = [
+  {
+    name: "Bananas",
+    price: 2,
+    inStock: 10,
+  },
+
+  {
+    name: "Agurkas",
+    price: 3,
+    inStock: 10,
+  },
+
+  {
+    name: "Pomidoras",
+    price: 1.57,
+    inStock: 30,
+  },
+  {
+    name: "Arbuzas",
+    price: 2,
+    inStock: 5,
+  },
+  {
+    name: "Melionas",
+    price: 20,
+    inStock: 3,
+  },
+];
+
+function shop(goods, currency) {
+  console.log(`${items.name}`);
+}
