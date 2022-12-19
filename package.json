@@ -19,6 +19,7 @@
     "rangeSum": "nodemon ./tasks/rangeSum.js",
     "reverseString": "nodemon ./tasks/reverseString.js",
     "rangeDevide": "nodemon ./tasks/rangeDevide.js",
+    "digitCount": "nodemon ./tasks/digitCount.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "zerofuel": "nodemon ./CodeWars/zerofuel.js",
     "arrayCheck": "nodemon ./CodeWars/arrayCheck.js",
