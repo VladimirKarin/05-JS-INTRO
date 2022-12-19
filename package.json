@@ -20,6 +20,7 @@
     "reverseString": "nodemon ./tasks/reverseString.js",
     "rangeDevide": "nodemon ./tasks/rangeDevide.js",
     "digitCount": "nodemon ./tasks/digitCount.js",
+    "biggestNumber": "nodemon ./tasks/biggestNumber.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "zerofuel": "nodemon ./CodeWars/zerofuel.js",
     "arrayCheck": "nodemon ./CodeWars/arrayCheck.js",
