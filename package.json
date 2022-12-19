@@ -24,7 +24,10 @@
     "biggestNumber": "nodemon ./tasks/biggestNumber.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "zerofuel": "nodemon ./CodeWars/zerofuel.js",
+    "stringDebug": "nodemon ./CodeWars/stringDebug.js",
     "arrayCheck": "nodemon ./CodeWars/arrayCheck.js",
+    "checkAlive": "nodemon ./CodeWars/checkAlive.js",
+    "summation": "nodemon ./CodeWars/summation.js",
     "cat-dog-years": "nodemon ./CodeWars/cat-dog-years.js",
     "celsiusConverter": "nodemon ./CodeWars/celsiusConverter.js",
     "helloWorld": "nodemon ./CodeWars/helloWorld.js"
