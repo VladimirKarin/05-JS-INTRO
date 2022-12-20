@@ -11,15 +11,18 @@ function biggestNumber(list) {
     return "ERROR: masyvas negali buti tuscias.";
   }
 
-  let max = list[0];
+  let max = -Infinity;
 
   for (let i = 1; i < list.length; i++) {
     const number = list[i];
-    if (number > max) {
+    if (typeof number === "number" && isFinite(number) && number > max) {
       max = number;
     }
   }
 
+  if (max === -Infinity) {
+    return "ERROR: sarase nera nei vieno normalaus skaiciaus";
+  }
   return max;
 }
 
@@ -64,3 +67,4 @@ console.log(
   0
 );
 console.log(biggestNumber(["true", true, NaN, [], [5], Infinity, -Infinity]));
+// console.log(biggestNUmber([-5, [[78], 14], 0, 18]), "--->", "78");             Rekursija (ALgoritmas)
