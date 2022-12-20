@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ternary": "nodemon ./js/11-ternary.js",
     "for": "nodemon ./js/010-for.js",
     "task": "nodemon ./js/00-task.js",
     "if": "nodemon ./js/09-if.js",
