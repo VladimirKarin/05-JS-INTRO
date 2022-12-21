@@ -44,10 +44,50 @@ for (const mark of marks) {
 }
 console.log("For-Of: " + sumForOf / marks.length);
 
-//FOR-IN (simplified FOR) ~95% effective (ne massivams)
+//FOR-IN (simplified FOR) ~95% effective (ne massivams) iteruoja per objekta
 console.log();
-console.log("FOR-OF");
+console.log("FOR-IN");
 console.log("----------------------");
+
+const user = {
+  name: "Petras",
+  age: 99,
+  isMarried: true,
+  favoriteNumber: 13,
+  children: 5,
+  grandChildren: 25,
+  key: "geltonas",
+  negative: -88,
+};
+
+let sumForObj = 0;
+const userKeys = Object.keys(user);
+console.log(userKeys);
+
+for (let i = 0; i < userKeys.length; i++) {
+  const key = userKeys[i];
+  const value = user[key];
+  console.log(value);
+  if (typeof value === "number" && isFinite(value) && value > 0)
+    sumForObj += value;
+}
+
+console.log("For in: ", sumForObj, "--->", 142);
+
+//2
+console.log("");
+console.log("Nr2");
+console.log("");
+let sumForIn = 0;
+
+for (const key in user) {
+  const value = user[key];
+  console.log(value);
+  if (typeof value === "number" && isFinite(value) && value > 0)
+    sumForIn += value;
+}
+
+console.log("For in: ", sumForIn, "--->", 142);
 
 //FOR-EACH  ~70% effective
 console.log();
