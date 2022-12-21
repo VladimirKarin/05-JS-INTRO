@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "rest": "nodemon ./js/15-rest.js",
     "spread": "nodemon ./js/14-spread.js",
     "arrow": "nodemon ./js/13-arrow.js",
     "string-method": "nodemon ./js/12-string-method.js",
@@ -33,6 +34,8 @@
     "checkAlive": "nodemon ./CodeWars/checkAlive.js",
     "summation": "nodemon ./CodeWars/summation.js",
     "cat-dog-years": "nodemon ./CodeWars/cat-dog-years.js",
+    "better": "nodemon ./CodeWars/better.js",
+    "quarterOfYear": "nodemon ./CodeWars/quarterOfYear.js",
     "celsiusConverter": "nodemon ./CodeWars/celsiusConverter.js",
     "helloWorld": "nodemon ./CodeWars/helloWorld.js"
   },

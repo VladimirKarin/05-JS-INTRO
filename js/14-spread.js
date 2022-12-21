@@ -55,6 +55,9 @@ console.log(numbers);
 console.log(numbers2);
 console.log(numbers3);
 
+
+///Spread israsymas/iskopijavimas
+
 const person = {
   name: "Maryte",
   age: 88,
@@ -82,3 +85,36 @@ console.log(person2.car.brand);
 
 const { childrenCount, happy, favoriteColor } = person2;
 console.log(childrenCount, happy, favoriteColor);
+
+
+console.clear();
+
+const a = ['a', 'aa'];
+const b = ['b', 'bb'];
+const c = ['c', 'cc'];
+
+const doubleABC = [...a, 111, ...b, ...c];
+const doubleABC2 = [...c, ...b, 222, ...a];
+console.log(doubleABC);
+console.log(doubleABC2);
+
+const ob = {b: 'b', bb:'bb'};
+const oa = {a: 'a', aa:'aa'};
+const oc = {c: 'c', cc:'cc'};
+const oABC = {...oa, ...ob, gg: 'gg', ...oc, cc: 'nebe CC'};
+console.log(oABC);
+console.log(oABC.a);
+console.log(oABC.gg);
+
+const user = {
+ name: 'Username',
+ password: 'password12',
+};
+
+  console.log(user);
+
+  const user2 = {...user, name: 'Petras'};
+  console.log(user2);
+  console.log(user2.name);
+
+  
