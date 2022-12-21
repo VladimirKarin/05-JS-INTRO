@@ -113,3 +113,7 @@ function sumavimasForeach(mark) {
 }
 marks.forEach(sumavimasForeach);
 console.log("ForEach3: ", sumForEach3 / marks.length);
+
+// NEXT LEVEL (HOF- higher order function)
+
+//MAP - grazinamas naujas to paciu dydzio masyvas su modifikuotomis reiksmemis.
