@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "sort": "nodemon ./js/19-sort.js",
     "filters": "nodemon ./js/18-filters.js",
     "map": "nodemon ./js/17-map.js",
     "loop": "nodemon ./js/16-loops.js",
