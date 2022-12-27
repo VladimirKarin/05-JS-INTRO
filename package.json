@@ -37,6 +37,7 @@
     "arrayCheck": "nodemon ./CodeWars/arrayCheck.js",
     "checkAlive": "nodemon ./CodeWars/checkAlive.js",
     "summation": "nodemon ./CodeWars/summation.js",
+    "test": "nodemon ./CodeWars/test.js",
     "cat-dog-years": "nodemon ./CodeWars/cat-dog-years.js",
     "better": "nodemon ./CodeWars/better.js",
     "quarterOfYear": "nodemon ./CodeWars/quarterOfYear.js",
