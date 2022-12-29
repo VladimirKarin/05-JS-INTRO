@@ -11,10 +11,7 @@ const petras = new Student("Petras", 2000);
 const maryte = new Student("Maryte", 1980);
 const jonas = new Student("Jonas", 1990);
 
-petras.addMark(10);
-petras.addMark(0);
-petras.addMark(2);
-petras.addMark(22);
+petras.addMarks(10, 0, 2, 22);
 petras.addMark(-22);
 petras.addMark(8);
 petras.addMark(3.14);
